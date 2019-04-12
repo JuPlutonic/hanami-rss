@@ -1,0 +1,3 @@
+project=railsfeed
+test=rspec
+template=slim
