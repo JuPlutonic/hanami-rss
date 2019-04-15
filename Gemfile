@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rake'
+gem 'dry-system'
+gem 'dry-system-hanami', github: 'davydovanton/dry-system-hanami'
 gem 'hanami',       '~> 1.3'
-gem 'hanami-model', '~> 1.3'
+gem 'hanami-validations', '1.3.3'
+# gem 'hanami-model'
 
 gem 'pg'
-
+gem 'rake'
 gem 'slim'
 
 group :development do

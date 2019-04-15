@@ -3,3 +3,5 @@
 #
 # Example:
 # get '/hello', to: ->(env) { [200, {}, ['Hello from Hanami!']] }
+# get '/books/:id', to: 'books#show'
+root to: 'feeds#show'
